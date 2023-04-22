@@ -81,7 +81,7 @@ m = folium.Map(location=[0, 0], zoom_start=2)
 #LOOP THROUGH DATA FILTER AND ADD IT TO THE MAP.  
 #filter_df.apply(lambda row:folium.Marker(location=[row["long"], row["lat"]], radius=10, popup=row["location"] + " " + row[0] + " " + row[1]).add_to(m), axis=1)
 
-filter_df.apply(lambda row:folium.Marker(location=[row["long"], row["lat"]], radius=10, popup="<b>" + row["location"] +"</b><br/></br>" + row[0] + row[1] ).add_to(m), axis=1)
+filter_df.apply(lambda row:folium.Marker(location=[row["long"], row["lat"]], radius=10,  icon=folium.Icon(color='red', icon=''), popup="<b> Location of Match: " + row["location"] +"</b><br/></br>" + row[0] + row[1] ).add_to(m), axis=1)
 
 #FINALLY, SAVE THE FOLIUM MAP AS AN .HTML FILE.  
 m.save('soccer_map.html')
