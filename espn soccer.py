@@ -61,7 +61,7 @@ final_df.loc[final_df[3] == '', 'location']  = final_df[4]
 filter_df = final_df[final_df['location'] != '']
 
 #FILTER DF FOR TESTING
-filter_df = filter_df.head(1)
+#filter_df = filter_df.head(1)
 
 #CALL THE getLocation() FUNCTION TO POPULATE THE LAT, LONG INTO ANOTHER COLUMN
 filter_df["latlong"] = filter_df['location'].map(lambda a: getLocation(a))
