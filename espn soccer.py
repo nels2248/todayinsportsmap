@@ -87,9 +87,9 @@ filter_df.apply(lambda row:folium.Marker(location=[row["long"], row["lat"]], rad
 #FINALLY, SAVE THE FOLIUM MAP AS AN .HTML FILE.  
 m.save('soccer_map.html')
 
-filter_df_export  = filter_df[['location', 'lat', 'long']]
+filter_df_export  = filter_df[['lat', 'long']]
 
-filter_df_export['location'] = filter_df_export['location'].str.replace(',','')
+#filter_df_export['location'] = filter_df_export['location'].str.replace(',','')
 
 filter_df_export.to_csv('soccer_export.csv')
 

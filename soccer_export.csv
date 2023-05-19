@@ -1,23 +1,23 @@
-,location,lat,long
-0,BayArena Leverkusen Germany,7.0022566,51.0382091
-1,Ramón Sánchez-Pizjuán Sevilla Spain,-5.9709778,37.3840863
-2,AFAS Stadion Alkmaar Netherlands,4.7418547,52.612973
-3,St. Jakob-Park Basel Switzerland,7.620075600000001,47.54158940000001
-4,St. James' Park Newcastle-upon-Tyne England,-1.621667,54.975556
-5,Estadio Akron Guadalajara Mexico,-103.4626455,20.6817764
-6,Breese Stevens Field Madison Wisconsin USA,-89.3730576,43.0833459
-7,Prince Sultan bin Abdulaziz Sports City Stadium Abha Saudi Arabia,42.597363,18.3110554
-8,Prince Faisal bin Fahd Stadium Riyadh Saudi Arabia,46.7397887,24.662633
-9,Ulker Stadyumu Istanbul Turkey,29.0368903,40.9876722
-10,Hillsborough Sheffield England,-1.4984496,53.4014756
-11,Bingoal Stadion Den Haag Netherlands,4.3823742,52.06275050000001
-12,Julio Humberto Grondona Buenos Aires Argentina,-58.3815591,-34.6036844
-13,Estadio Monumental David Arellano Santiago Chile,-70.60600939999999,-33.5066621
-14,Defensores del Chaco Asunción Paraguay,-57.65740029999999,-25.2920792
-15,Estadio Martín Torres Asunción Paraguay,-57.5839715,-25.2597172
-16,Alejandro Morera Soto Alajuela Costa Rica,-84.20916869999999,10.0217932
-17,Estadio Pensativo Antigua Guatemala Guatemala,-90.7381336,14.5676473
-18,Estadio Jorge Calero Suárez Metapán,-89.4489613,14.3320656
-19,Complejo Deportivo Tierra de Fuego Jocoro,-88.0280554,13.6153859
-20,Stadium Majlis Bandaraya Petaling Jaya Petaling Jaya Malaysia,101.5937355,3.0986717
-21,Adokiye Amiesimaka Stadium Port Harcourt Nigeria,6.9712634,4.9678359
+,lat,long
+0,7.0022566,51.0382091
+1,-5.9709778,37.3840863
+2,4.7418547,52.612973
+3,7.620075600000001,47.54158940000001
+4,-1.621667,54.975556
+5,-103.4626455,20.6817764
+6,-89.3730576,43.0833459
+7,42.597363,18.3110554
+8,46.7397887,24.662633
+9,29.0368903,40.9876722
+10,-1.4984496,53.4014756
+11,4.3823742,52.06275050000001
+12,-58.3815591,-34.6036844
+13,-70.60600939999999,-33.5066621
+14,-57.65740029999999,-25.2920792
+15,-57.5839715,-25.2597172
+16,-84.20916869999999,10.0217932
+17,-90.7381336,14.5676473
+18,-89.4489613,14.3320656
+19,-88.0280554,13.6153859
+20,101.5937355,3.0986717
+21,6.9712634,4.9678359
