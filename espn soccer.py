@@ -89,6 +89,8 @@ m.save('soccer_map.html')
 
 filter_df_export  = filter_df[['location', 'lat', 'long']]
 
+filter_df_export['location'] = filter_df_export['location'].str.replace(',','')
+
 filter_df_export.to_csv('soccer_export.csv')
 
 
