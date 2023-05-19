@@ -83,10 +83,15 @@ m = folium.Map(location=[0, 0], zoom_start=2)
 
 filter_df.apply(lambda row:folium.Marker(location=[row["long"], row["lat"]], radius=10,  icon=folium.Icon(color='red', icon=''), popup="<b> Location of Match: " + row["location"] +"</b><br/></br>" + row[0] + row[1] ).add_to(m), axis=1)
 
-filter_df.to_csv('soccer_export.csv')
 
 #FINALLY, SAVE THE FOLIUM MAP AS AN .HTML FILE.  
 m.save('soccer_map.html')
+
+filter_df_export  = filter_df[['location', 'lat', 'long']]
+
+filter_df_export.to_csv('soccer_export.csv')
+
+
 #m.save('mysite/templates/soccer_map.html')
  
     
